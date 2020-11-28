@@ -17,11 +17,11 @@ const TopNav = () => {
           height: 40,
         }}>
         <Image
-          source={require('../../assets/icons/bar-icon.png')}
+          source={require('../../../assets/icons/bar-icon.png')}
           style={{marginTop: 5}}
         />
         <Text style={{fontSize: 28, marginTop: -6, color: 'white'}}>Jibb</Text>
-        <Image source={require('../../assets/icons/search-icon.png')} />
+        <Image source={require('../../../assets/icons/search-icon.png')} />
       </View>
     </View>
   );

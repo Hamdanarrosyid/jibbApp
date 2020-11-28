@@ -18,7 +18,7 @@ const BottomNav = () => (
           height: 24,
           marginTop: 20,
         }}>
-        <Image source={require('../../assets/icons/home-icon-active.png')} />
+        <Image source={require('../../../assets/icons/home-icon-active.png')} />
       </View>
     </View>
     <View style={{flex: 1, alignItems: 'center'}}>
@@ -28,7 +28,7 @@ const BottomNav = () => (
           height: 24,
           marginTop: 20,
         }}>
-        <Image source={require('../../assets/icons/news_24px.png')} />
+        <Image source={require('../../../assets/icons/news_24px.png')} />
       </View>
     </View>
     <View style={{flex: 1, alignItems: 'center'}}>
@@ -38,7 +38,7 @@ const BottomNav = () => (
           height: 24,
           marginTop: 20,
         }}>
-        <Image source={require('../../assets/icons/image_file_24px.png')} />
+        <Image source={require('../../../assets/icons/image_file_24px.png')} />
       </View>
     </View>
     <View style={{flex: 1, alignItems: 'center'}}>
@@ -48,7 +48,7 @@ const BottomNav = () => (
           height: 24,
           marginTop: 20,
         }}>
-        <Image source={require('../../assets/icons/event_24px.png')} />
+        <Image source={require('../../../assets/icons/event_24px.png')} />
       </View>
     </View>
     <View style={{flex: 1, alignItems: 'center'}}>
@@ -58,7 +58,7 @@ const BottomNav = () => (
           height: 24,
           marginTop: 20,
         }}>
-        <Image source={require('../../assets/icons/user_24px.png')} />
+        <Image source={require('../../../assets/icons/user_24px.png')} />
       </View>
     </View>
   </View>
