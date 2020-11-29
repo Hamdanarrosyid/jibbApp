@@ -2,7 +2,7 @@ import React from 'react';
 
 import {View} from 'react-native';
 import TopNav from '../../components/templates/TopNav/TopNav';
-import BottomNav from '../../components/templates/BottomNav/BottomNav';
+// import BottomNav from '../../components/templates/BottomNav/BottomNav';
 import News from '../../components/templates/News/News';
 
 // import styles from './styles';
@@ -14,7 +14,6 @@ const Home = () => {
         <TopNav />
         <News />
       </View>
-      <BottomNav />
     </View>
   );
 };

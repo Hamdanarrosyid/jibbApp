@@ -3,19 +3,22 @@ import React from 'react';
 import {FlatList, SafeAreaView, Text} from 'react-native';
 
 import styles from '../../molecules/NewsSection/styles';
-import {gql, useQuery} from '@apollo/client';
+import {useQuery} from '@apollo/client';
 import NewsSection from '../../molecules/NewsSection/NewsSection';
+import {ARTICLES_QUERY} from '../../../graphql/queries/queries';
 
-const myQuery = gql`
-  query {
-    articles {
-      id
-      title
-    }
-  }
-`;
+interface ArticlesInventory {
+  id: number;
+  title: string;
+}
+interface ArticlesInventoryData {
+  articles: ArticlesInventory;
+}
 const News = () => {
-  const {loading, error, data} = useQuery<any>(myQuery);
+  const {loading, error, data} = useQuery<ArticlesInventoryData>(
+    ARTICLES_QUERY,
+    {},
+  );
   if (loading) {
     return <Text>Loading...</Text>;
   }
